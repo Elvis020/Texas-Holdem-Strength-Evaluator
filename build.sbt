@@ -1,4 +1,4 @@
-name := "Evolution Poker Hand Strength Evaluator"
+name := "Cards Strength Evaluator"
 
 version := "1.0"
 
