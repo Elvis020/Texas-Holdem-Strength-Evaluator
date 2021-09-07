@@ -2,12 +2,14 @@
 
 # Requirements
 * Scala
+* Java 11
+* OpenJDK 11
 * sbt
 * Editor(IntelliJ preferably)
 
 ## Structure of Codebase
-For main code: src -> main -> scala -> com.assignment.cards
-For unit tests: test -> scala -> com.assignment.cards
+* For main code: src -> main -> scala -> com.assignment.cards
+* For unit tests: test -> scala -> com.assignment.cards
 
 ## Description
 Developing an algorithm for sorting poker hands(Texas hold'em) according to their strength.
@@ -21,7 +23,7 @@ You should support one to three poker game types (more is better):
 
   See [Texas Hold'em rules](https://en.wikipedia.org/wiki/Texas_hold_%27em).
 
-### Poker Structure
+### Project Structure
 The game is packaged into: Actions, CardRules,GameTypes,Types and a type alias package
 
 ### Hand Value
@@ -55,6 +57,15 @@ All the functions in the steps are in the actions package.
 
 It includes the algorithm for sorting the cards in various scenarios
 Also, the algorithm for the card rules(Straight, Flush etc) can be found in the card rules package
+
+
+### Input of Test Cases
+
+The input is to be read as a string:
+
+```
+<game-type> [<5 board cards>] <hand 1> <hand 2> <...> <hand N>
+```
 
 #### Examples
 

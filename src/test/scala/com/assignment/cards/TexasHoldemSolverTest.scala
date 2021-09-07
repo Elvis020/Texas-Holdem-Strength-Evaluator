@@ -11,14 +11,19 @@ class TexasHoldemSolverTest extends TestCase {
       process("texas-holdem 5c6dAcAsQs Ks4c KdJs 2hAh Kh4h Kc7h 6h7d 2cJc"),
     )
   }
+}
 
+class TexasHoldemSolverTest_2 extends TestCase{
   def test_th_2h5c8sAsKc(): Unit = {
     assertEquals(
       "Jc6s Qs9h 3cKh KdQh",
       process("texas-holdem 2h5c8sAsKc Qs9h KdQh 3cKh Jc6s"),
     )
   }
+}
 
+
+class TexasHoldemSolverTest_3 extends TestCase{
   def test_th_3d4s5dJsQd(): Unit = {
     assertEquals(
       "9h7h 2dTc KcAs 7sJd TsJc Qh8c 5c4h",
